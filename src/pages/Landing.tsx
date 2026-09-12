@@ -56,7 +56,7 @@ export default function Landing() {
         const next = [...prev, d];
         if (next.length === 4) {
           const code = next.join("");
-          if (code === "0729") {
+          if (code === "2509") {
             setUnlocking(true);
             setTimeout(() => setLocation("/menu"), 900);
           } else {
