@@ -4,8 +4,8 @@ import { motion } from "framer-motion";
 const menuItems = [
   {
     emoji: "💐",
-    label: "Gallery",
-    sublabel: "Our memories",
+    label: "Galerie",
+    sublabel: "Amintirile Noastre",
     path: "/gallery",
     testId: "menu-gallery",
     color: "#d4607a",
@@ -13,8 +13,8 @@ const menuItems = [
   },
   {
     emoji: "💌",
-    label: "Love Letter",
-    sublabel: "From my heart",
+    label: "Scrisoare de Iubire",
+    sublabel: "Din Inima Mea",
     path: "/letter",
     testId: "menu-letter",
     color: "#b84070",
@@ -22,7 +22,7 @@ const menuItems = [
   },
   {
     emoji: "🧸",
-    label: "Our Song",
+    label: "Piesa Noastra",
     sublabel: "Seasons ♪",
     path: "/music",
     testId: "menu-music",
@@ -103,10 +103,10 @@ export default function Menu() {
             ♡ One Year ♡
           </p>
           <h1 className="font-serif text-4xl font-bold" style={{ color: "#7a3555" }}>
-            Our World
+            Lumea Noastra
           </h1>
           <p className="text-sm text-pink-400 italic font-light">
-            Choose where to go, my Muchiee 
+            Alege o Categorie 
           </p>
         </motion.div>
 
@@ -157,7 +157,7 @@ export default function Menu() {
           animate={{ opacity: 1 }}
           transition={{ delay: 0.8 }}
         >
-          Made with love, Gawa koto bebi, dw
+          Facut cu Iubire, Pentru al meu Soare
         </motion.p>
       </div>
     </motion.div>
