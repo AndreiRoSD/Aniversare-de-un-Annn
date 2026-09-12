@@ -54,7 +54,7 @@ jobs:
 
           export default defineConfig({
             plugins: [react(), tailwindcss()],
-            base: '/1st-anniversary/',
+            base: '/Aniversare-de-un-Annn/',
             resolve: {
               alias: {
                 '@': path.resolve(__dirname, './src'),
