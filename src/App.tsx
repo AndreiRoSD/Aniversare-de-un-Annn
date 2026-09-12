@@ -27,7 +27,8 @@ function App() {
   return (
     <QueryClientProvider client={queryClient}>
       <TooltipProvider>
-        <WouterRouter base={import.meta.env.BASE_URL.replace(/\/$/, "")}>
+        {/* AICI ESTE REZOLVAREA ECRANULUI ALB */}
+        <WouterRouter base="/Aniversare-de-un-Annn">
           <Router />
         </WouterRouter>
       </TooltipProvider>
